@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=50px, initial-scale=1.0">
+    <style>
+    	/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header .text1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Slideshow container styles */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.slideshow-container .slide {
+    display: none;
+    max-width: 100%;
+}
+
+.slideshow-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Check Out More section styles */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+    color: #333;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.list {
+    margin: 0 10px;
+}
+
+.list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.list a:hover {
+    color: #ff3366;
+}
+
+/* Check Out More section styles */
+/* Check Out More section styles */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 28px;
+    color: #333;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Align items vertically */
+    flex-wrap: wrap; /* Ensure items wrap to the next line if necessary */
+    margin-top: 20px;
+}
+
+.list {
+    margin: 10px;
+    padding: 20px;
+    background-color: lightblue; /* Set background color to light blue */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    flex: 1; /* Equal width for all items */
+    max-width: 200px; /* Limit maximum width of each item */
+    animation: bounce 1s infinite alternate; /* Apply bounce animation */
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px); /* Adjust the value to control the bounce height */
+    }
+}
+
+.list:hover {
+    transform: translateY(-5px);
+}
+
+.list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.list a:hover {
+    color: #ff3366;
+}
+
+
+
+.list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px; /* Larger font size */
+    font-weight: bold; /* Make the font bold */
+    transition: color 0.1s ease-in-out;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.list a:hover {
+    color: #0056FF;
+}
+
+</style>
+    <title>Shop</title>
+</head>
+<body>
+    <header>
+    <a href="index.html"><div class="text1">LollyBoom</div></a>
+    </header>
+
+    <div class="slideshow-container">
+      <div class="slide fade">
+        <img src="/ani/image7.png" alt="Slide 1">
+      </div>
+      <div class="slide fade">
+        <img src="/ani/image2.png" alt="Slide 2">
+      </div>
+      <div class="slide fade">
+        <img src="/ani/image3.png" alt="Slide 3">
+      </div>
+      <div class="slide fade">
+        <img src="/ani/image4.png" alt="Slide 4">
+      </div>
+      <div class="slide fade">
+        <img src="/ani/image5.png" alt="Slide 5">
+      </div>
+      <div class="slide fade">
+        <img src="/ani/image6.png" alt="Slide 6">
+      </div>
+      <div class="slide fade">
+        <img src="/ani/image7.png" alt="Slide 7">
+      </div>
+        <div class="slide fade">
+        <img src="/ani/image8.png" alt="Slide 8">
+      </div>
+      <div class="slide fade">
+        <img src="/ani/image10.png" alt="Slide 10">
+      </div>
+    </div>
+
+   <h1>Check Out More</h1>
+  
+   <div class="second">
+    <div class="list">
+    <a href="/shopping folder/Hoodies.html">hoodies</a>
+  </div>
+  <div class="list">
+    <a href="/shopping folder/short.html">shorts</a>
+  </div>
+    <div class="list">
+    <a href="/shopping folder/shirt.html">shirt</a>
+  </div>
+    <div class="list">
+    <a href="shopping folder/gown.html">gown</a>
+  </div>
+    <div class="list">
+    <a href="shopping folder/shoes.html">shoe/canva</a>
+  </div>
+   </div>
+
+
+
+
+   <script src="script.js"></script>
+</body>
+<script>
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const optionsButton2 = document.getElementById("optionsButton2");
+  const dropdownContent2 = document.getElementById("dropdownContent2");
+
+  dropdownContent.addEventListener("click", (event) => {
+    if (event.target.tagName === "A") {
+      const url = event.target.getAttribute("data-url");
+      window.location.href = url;
+    }
+  });
+});
+</script>
+</html>

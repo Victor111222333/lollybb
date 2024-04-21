@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shop2.css">
+    <title>Hoodie</title>
+</head>
+<body>
+    <!-- Shopping Cart Section -->
+    <body>
+        <!-- Shopping Cart Section -->
+        <div class="cart">
+            <h2>Shopping Cart <span id="itemCounter">0</span></h2>
+            <ul id="cartItems"></ul>
+            <p>Total: ₦<span id="cartTotal">0</span></p>
+            <button onclick="clearCart()">Clear Cart</button>
+            <button id="toggleNamesButton" onclick="toggleItemNames()">Show Names</button>
+            <button onclick="buyNow()">Buy Now</button>
+        </div>
+    
+        <h1>Latest Stock</h1>
+        <section class="sec">
+            <div class="products">
+                <!--card start-->
+                <div class="card">
+                    <div class="img"><img src="cloths/cloth.png" alt=""> </div>
+                    <div class="desc">Women</div>
+                    <div class="title">Lady Sandal</div>
+                    <div class="box">
+                        <div class="price">₦5500</div>
+                        <button class="btn" onclick="addToCart('Lady Sandal', 5500)">Add to Cart</button>
+                    </div>              
+                </div>
+                <!--card end-->
+    
+                <!-- Additional cards -->
+                <div class="card">
+                    <div class="img"><img src="Hoodie/image1.png" alt=""></div>
+                    <div class="desc">Category</div>
+                    <div class="title">Product 1</div>
+                    <div class="box">
+                        <div class="price">₦6000</div>
+                        <button class="btn" onclick="addToCart('Product 1', 6000)">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="img"><img src="hoodie/image2.png" alt=""></div>
+                    <div class="desc">Category</div>
+                    <div class="title">Product 2</div>
+                    <div class="box">
+                        <div class="price">₦8290</div>
+                        <button class="btn" onclick="addToCart('Product 2', 8290)">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="img"><img src="hoodie/image3.png" alt=""></div>
+                    <div class="desc">Category</div>
+                    <div class="title">Product 3</div>
+                    <div class="box">
+                        <div class="price">₦4560</div>
+                        <button class="btn" onclick="addToCart('Product 3', 4560)">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="img"><img src="hoodie/image4.png" alt=""></div>
+                    <div class="desc">Category</div>
+                    <div class="title">Product 4</div>
+                    <div class="box">
+                        <div class="price">₦1000</div>
+                        <button class="btn" onclick="addToCart('Product 4', 1000)">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="img"><img src="hoodie/image5.jpg" alt=""></div>
+                    <div class="desc">Category</div>
+                    <div class="title">Product 5</div>
+                    <div class="box">
+                        <div class="price">₦4500</div>
+                        <button class="btn" onclick="addToCart('Product 5', 4500)">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="img"><img src="hoodie/image6.png" alt=""></div>
+                    <div class="desc">Category</div>
+                    <div class="title">Product 6</div>
+                    <div class="box">
+                        <div class="price">₦4200</div>
+                        <button class="btn" onclick="addToCart('Product 6', 4200)">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="img"><img src="hoodie/image7.png" alt=""></div>
+                    <div class="desc">Category</div>
+                    <div class="title">Product 7</div>
+                    <div class="box">
+                        <div class="price">₦3500</div>
+                        <button class="btn" onclick="addToCart('Product 7', 3500)">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="img"><img src="hoodie/image8.png" alt=""></div>
+                    <div class="desc">Category</div>
+                    <div class="title">Product 8</div>
+                    <div class="box">
+                        <div class="price">₦11800</div>
+                        <button class="btn" onclick="addToCart('Product 8', 11800)">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- End additional cards -->
+                
+                <!-- Additional cards -->
+                <div class="card">
+                    <div class="img"><img src="hoodie/image9.png" alt=""></div>
+                    <div class="desc">Category</div>
+                    <div class="title">Product 9</div>
+                    <div class="box">
+                        <div class="price">₦4500</div>
+                        <button class="btn" onclick="addToCart('Product 9', 4500)">Add to Cart</button>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="img"><img src="hoodie/image9.png" alt=""></div>
+                    <div class="desc">Category</div>
+                    <div class="title">Product 10</div>
+                    <div class="box">
+                        <div class="price">₦5600</div>
+                        <button class="btn" onclick="addToCart('Product 10', 5600)">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="hoodie/image9.png" alt=""></div>
+                    <div class="desc">Category</div>
+                    <div class="title">Product 10</div>
+                    <div class="box">
+                        <div class="price">₦5600</div>
+                        <button class="btn" onclick="addToCart('Product 10', 5600)">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- End additional cards -->
+            </div>
+        </section>
+
+  <script src="script.js"></script>
+    
+    </script>
+</body>
+</html>

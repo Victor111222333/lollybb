@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  body{
+    background: #3651a2;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+  }
+  /*The inside body*/
+  .container{
+    width: 360px;
+    height: 400px;
+    margin: 8% auto;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+  }
+  /*The fonts*/
+  h3{
+    text-align: center;
+  
+    color: #ffffff;
+  }
+  .fot{
+    background-color: #12084e;
+  }
+  .h3a{
+    bottom: 223%;
+    margin: 10px;
+  }
+  .container form{
+  width: 280px;
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  }
+  /*The form input*/
+  form input{
+    width: 100%;
+    padding: 15.6px 9px;
+    border: 3px;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    color: rgb(11, 11, 107);
+  }
+  ::placeholder{
+    color: #777;
+  }
+  /*Button*/
+  .btn-box{
+    width: 100%;
+    margin: 30px auto;
+    padding-right: 5px;
+    text-align: center;
+  }
+  form button{
+    width: 110px;
+    height: 35px;
+    margin: 0 10px;
+    background: linear-gradient(to right, #0a96b9, #0a6879);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  
+  /*Form*/
+  #Form2{
+    left: 450px;
+  }
+  #Form3{
+    left: 450px;
+  }
+  h1{
+    text-align: center;
+    padding: 22px;
+   font-family: sans-serif;
+    font-weight: 400;
+    font-display: unset;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: rgb(12, 19, 85);
+    box-shadow: 0 -1px 5px -1px #000;
+  }
+  h3{
+    color: #777;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  /* help */
+  .but1{
+      width: 100%;
+      margin: 30px auto;
+      padding-right: 5px;
+      text-align: center;
+    }
+    .but1 a{
+      width: 110px;
+      height: 35px;
+      margin: 0 10px;
+    
+      border-radius: 30px;
+      border: 0;
+      outline: none;
+      color: #fff;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+   
+ 
+  
+   
+   
+  
+  h3{
+    color: #999;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 38px;
+    text-transform: capitalize;
+    background-color: #12084e;
+    height: 130px auto;
+    padding: 40px;
+  }

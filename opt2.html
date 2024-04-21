@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirect Button with Options</title>
+</head>
+<body>
+  <button id="optionsButton">Choose an option</button>
+  
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+  const optionsButton = document.getElementById("optionsButton");
+
+  optionsButton.addEventListener("click", () => {
+    const options = ["Option 1", "Option 2", "Option 3"]; // List of options
+    const selectedOption = window.prompt("Choose an option:\n\n" + options.join("\n"));
+
+    if (selectedOption !== null) {
+      // Handle redirection based on the selected option
+      switch (selectedOption) {
+        case "Option 1":
+          window.location.href = "https://www.example.com/option1";
+          break;
+        case "Option 2":
+          window.location.href = "https://www.example.com/option2";
+          break;
+        case "Option 3":
+          window.location.href = "https://www.example.com/option3";
+          break;
+        default:
+          // Handle invalid option
+          alert("Invalid option selected.");
+      }
+    }
+  });
+});
+
+</script>
+</html>
