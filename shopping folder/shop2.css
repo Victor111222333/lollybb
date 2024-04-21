@@ -103,6 +103,7 @@ border-radius: 5px;
 padding: 10px 20px;
 font-size: 1rem;
 cursor: pointer;
+margin: 3px;
 transition: background-color 0.3s ease;
 }
 
